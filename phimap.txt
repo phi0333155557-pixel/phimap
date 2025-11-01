@@ -1,1 +1,1 @@
-_G.Config = { UserID = "a0978721-2727-4322-8d7d-e7e4c3e55694", discord_id = "1376804197764436070" , Note = "Pc", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/pvb"))()
+_G.Config={UserID="a0978721-2727-4322-8d7d-e7e4c3e55694",discord_id="1376804197764436070",Note="Pc"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/gag"))()end)if s then break end wait(5)end
