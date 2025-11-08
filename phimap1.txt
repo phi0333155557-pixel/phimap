@@ -4,8 +4,8 @@ setfpscap(3)
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Safari Egg" },
-    DISABLE_REAPER_EVENT = false,
+    BUY_EVENT_SHOP = { "Safari Egg", "Lion" },
+    SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},  -- Add as many pet names
     
     MAX_PLANTS = 250,
     DESTROY_UNTIL_MIN_PLANTS = 180,
@@ -48,7 +48,7 @@ getgenv().gagConfig = {
     SHOW_PUBLIC_DISCORD_ID = true,
     NOTIFY_PETS = { "Elephant", "Lich", "Mummy", "Hex Serpent", "Headless Horseman", "Reaper", "Fortune Squirrel", "Chinchilla", "Tiger", "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Phoenix", "Cockatrice", "Gnome", "Griffin", "Golden Goose", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
     NOTIFY_PETS_WEIGHT = 7,
-    DISCORD_ID = "933028822608146442",
+    DISCORD_ID = "",
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
